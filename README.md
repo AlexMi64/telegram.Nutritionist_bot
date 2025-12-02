@@ -388,10 +388,10 @@ node scripts/translate_existing_foods.js  # Перевод названий
 - ✅ SQLite база данных с миграциями
 - ✅ Telegram бот с FSM состояниями
 - ✅ Крон планировщик уведомлений
+- ✅ Фото анализ через GPT-4 Vision
+- ✅ Госовые сообщения с Whisper
 
 ### Версия 2.1 (Q1 2026)
-- 🔄 Фото анализ через GPT-4 Vision
-- 🎙️ Голосовые сообщения с Whisper
 - 📊 Базовый web dashboard
 - 🌍 Мультиязычная поддержка
 
@@ -403,7 +403,6 @@ node scripts/translate_existing_foods.js  # Перевод названий
 
 ### Версия 3.0 (Q3 2026)
 - 📱 Mobile app (React Native)
-- 🔄 PostgreSQL для масштаба
 - 🤖 Проактивные рекомендации
 - 🎨 Кастомные темы и интеграции
 
