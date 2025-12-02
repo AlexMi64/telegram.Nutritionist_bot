@@ -17,6 +17,22 @@ yarn-error.log*
 *.sqlite3
 database/
 
+# AI Models (large binary files)
+*.bin
+*.onnx
+*.h5
+*.pb
+models/ggml-*.bin
+models/*.bin
+
+# Virtual environments
+venv/
+env/
+venv_whisper/
+__pycache__/
+*.pyc
+*.pyo
+
 # Logs
 logs/
 *.log
