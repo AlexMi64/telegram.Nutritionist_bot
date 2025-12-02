@@ -422,19 +422,6 @@ node scripts/translate_existing_foods.js  # Перевод названий
 - 🧪 **Tests**: Написание и улучшение тестов
 - 🎨 **UI/UX**: Улучшение пользовательского опыта
 
-## 📞 Поддержка и сообщество
-
-### Получить помощь:
-- 💬 **Telegram**: [@eatbot_support](https://t.me/eatbot_support)
-- 📧 **Email**: support@eatbot.dev
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/eat_bot/issues)
-- 💡 **Discussions**: [GitHub Discussions](https://github.com/yourusername/eat_bot/discussions)
-
-### Мы в соцсетях:
-- 📣 **Telegram канал**: [@eatbot_dev](https://t.me/eatbot_dev)
-- 🐦 **Twitter**: [@eatbot_dev](https://twitter.com/eatbot_dev)
-- 📱 **Instagram**: [@eatbot.dev](https://instagram.com/eatbot.dev)
-
 ## 📜 Лицензия
 
 **MIT License** - см. [LICENSE](LICENSE) для деталей.
