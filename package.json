@@ -1,0 +1,61 @@
+{
+  "name": "eat_bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для контроля питания и мотивации",
+  "main": "src/bot/bot.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/bot/bot.js",
+    "dev": "NODE_ENV=development nodemon src/bot/bot.js",
+    "build": "echo 'No build step required'",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "lint": "eslint src/ --fix",
+    "lint:check": "eslint src/ --max-warnings=0",
+    "migrate": "npx sequelize-cli db:migrate",
+    "migrate:undo": "npx sequelize-cli db:migrate:undo",
+    "seed": "npx sequelize-cli db:seed:all",
+    "db:create": "npx sequelize-cli db:create",
+    "db:drop": "npx sequelize-cli db:drop",
+    "deploy": "npm run lint && npm test && npm run migrate",
+    "logs": "tail -f logs/bot.log",
+    "status": "pm2 status eat_bot",
+    "restart": "pm2 restart eat_bot"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "nutrition",
+    "ai"
+  ],
+  "author": "Eat_bot Developer",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.1",
+    "axios": "^1.4.0",
+    "csv-parser": "^3.2.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "ffmpeg-static": "^5.3.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.5",
+    "google-translate-api": "^2.3.0",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "openai": "^4.0.0",
+    "sequelize": "^6.31.0",
+    "sharp": "^0.32.0",
+    "sqlite3": "^5.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "sequelize-cli": "^6.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
